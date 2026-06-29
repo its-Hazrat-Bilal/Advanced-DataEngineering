@@ -26,3 +26,28 @@ print("There are", count_employees(), "employees.")
 print_employee("Administrator")
 
 print("Employee module finished.")
+
+
+
+
+print("Loading database...")
+
+db = []
+
+
+def connect():
+    print("Connecting...")
+
+
+class User:
+
+    print("Inside class definition")
+
+    country = "Pakistan"
+
+    def __init__(self, name):
+        print("Creating object")
+        self.name = name
+
+
+print("Module loaded")
