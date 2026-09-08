@@ -7,7 +7,9 @@ authors = [
     { name = "its-Hazrat-Bilal", email = "hazratbilalcs46@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+]
 
 [project.scripts]
 project-01-data-api = "project_01_data_api:main"
